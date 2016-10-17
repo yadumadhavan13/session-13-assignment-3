@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity implements TabListener{
         actionBar.setDisplayUseLogoEnabled(true);
         actionBar.setDisplayShowHomeEnabled(true);
         actionBar.setNavigationMode(actionBar.NAVIGATION_MODE_TABS);
-        actionBar.addTab(actionBar.newTab().setText("AUDIO").setTabListener(this));
-        actionBar.addTab(actionBar.newTab().setText("VIDEO").setTabListener(this));
+        actionBar.addTab(actionBar.newTab().setText("AUDIO").setIcon(R.drawable.tab2).setTabListener(this));
+        actionBar.addTab(actionBar.newTab().setText("VIDEO").setIcon(R.drawable.tab2).setTabListener(this));
 
     }
 
